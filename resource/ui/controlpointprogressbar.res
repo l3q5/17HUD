@@ -1,0 +1,117 @@
+"Resource/UI/ControlPointProgressBar.res"
+{
+	"ControlPointProgressBar"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"	"ControlPointProgressBar"
+		"xpos"		"0"
+		"ypos"		"0"
+		"zpos"		"20"
+		"wide"		"50"
+		"tall"		"50"
+		"visible"	"0"
+		"enabled"	"1"
+	}
+
+	"ProgressBar"
+	{
+		"ControlName"	"CircularProgressBar"
+		"fieldName"	"ProgressBar"
+		"xpos"		"15"
+		"ypos"		"30"
+		"zpos"		"23"
+		"wide"		"20"
+		"tall"		"20"
+		"autoResize"	"0"
+		"pinCorner"	"0"
+		"visible"	"1"
+		"enabled"	"1"
+		"fg_image"	"progress_bar_blu"
+		"bg_image"	"progress_bar_blu"
+	}
+
+	"Teardrop"
+	{
+		"ControlName"	"CIconPanel"
+		"fieldName"	"Teardrop"
+		"xpos"		"9999"
+		"ypos"		"9999"
+		"zpos"		"21"
+		"wide"		"54"
+		"tall"		"65"
+		"visible"	"1"
+		"enabled"	"1"
+		"scaleImage"	"1"
+		"icon"		"cappoint_progressbar_teardrop"
+		"iconColor"	"255 255 255 255"
+	}
+	
+	"TeardropSide"
+	{
+		"ControlName"	"CIconPanel"
+		"fieldName"	"TeardropSide"
+		"xpos"		"9999"
+		"ypos"		"9999"
+		"zpos"		"21"
+		"wide"		"54"
+		"tall"		"54"
+		"visible"	"1"
+		"enabled"	"1"
+		"scaleImage"	"1"
+		"icon"		"cappoint_progressbar_teardrop"
+		"iconColor"	"255 255 255 255"
+	}
+
+	"ProgressText"
+	{	
+		"ControlName"		"Label"
+		"fieldName"		"ProgressText"
+		"font"			"DefaultSmall"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"23"
+		"wide"			"50"
+		"tall"			"50"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"progress"
+		"textAlignment"			"south"
+		"dulltext"		"0"
+		"brighttext"		"0"
+		"centerwrap"	"1"
+	}
+	
+	"TextBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"TextBG"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"0"
+		"wide"			"50"
+		"tall"			"50"
+		"fillcolor"		"0 0 0 200"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+	}
+
+	"Blocked"
+	{
+		"ControlName"	"CIconPanel"
+		"fieldName"	"Blocked"
+		"xpos"		"9999"
+		"ypos"		"9999"
+		"zpos"		"21"
+		"wide"		"50"
+		"tall"		"50"
+		"visible"	"1"
+		"enabled"	"1"
+		"scaleImage"	"1"
+		"icon"		"cappoint_progressbar_blocked"
+		"iconColor"	"255 255 255 255"
+	}
+}
